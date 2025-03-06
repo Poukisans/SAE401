@@ -1,0 +1,66 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+#chaussure {
+    position: relative;
+    height: 80vh;
+    width: auto;
+    aspect-ratio: 1/1;
+
+}
+
+#product_shape {
+    position: absolute;
+    z-index: 2;
+    mix-blend-mode: multiply;
+    width: 100%;
+    object-fit: contain;
+}
+
+#background_image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: contain;
+}
+
+.colors {
+    display: flex;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    z-index: 3;
+}
+
+.color_picker {
+    position: fixed;
+    bottom: 4em;
+    right: 4em;
+    z-index: 3;
+    padding: 1em;
+}
+
+.jscolor {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 0;
+    cursor: pointer;
+}
+
+.shape_color {
+    cursor: pointer;
+}
+
+.shape_color {
+    transition: fill 0.5s ease;
+}
