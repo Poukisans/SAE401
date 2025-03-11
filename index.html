@@ -176,6 +176,7 @@
         function changeColors(picker) {
             // Set the fill style
             part.style.fill = picker.toHEXString();
+            animation.setSpeed(Math.floor(Math.random() * 10) + 0.3);
         }
 
         //Lottie
@@ -186,6 +187,7 @@
             loop: true,
             autoplay: true,
         })
+        animation.setSpeed(1);
         animation.play();
     </script>
 
