@@ -19,7 +19,7 @@
 
         <div class="flex items-center w-full">
           <button @click="basketStore.addToBasket" class="px-3 py-4 bg-white text-black border-white border-1 hover:bg-black hover:text-white transform duration-200 mr-4">Ajouter au panier</button>
-          <p class="text-3xl font-vg ">{{  currentArticle.prix.toFixed(2) }} €</p>
+          <p class="text-3xl font-vg">{{  currentArticle.prix.toFixed(2) }} €</p>
         </div>
       </div>
     </div>
