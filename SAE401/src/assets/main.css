@@ -1,0 +1,22 @@
+@import url("https://use.typekit.net/bmv6xgr.css");
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'VG5000';
+  src:    url('font/VG5000/VG5000-Regular_web.eot');
+  src:    url('font/VG5000/VG5000-Regular_web.eot?#iefix') format('embedded-opentype'),
+          url('font/VG5000/VG5000-Regular_web.woff') format('woff'),
+          url('font/VG5000/VG5000-Regular_web.woff2') format('woff2'),
+          url('font/VG5000/VG5000-Regular_web.ttf') format('truetype'),
+          url('font/VG5000/VG5000-Regular_web.svg#svgFontName') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-futura {
+  font-family: futura-pt, sans-serif;
+}
+
+.font-vg {
+  font-family: VG5000;
+}
