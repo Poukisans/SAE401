@@ -1,5 +1,5 @@
 <template>
-  <main class="px-10">
+  <main class="px-10 h-full">
     <!-- recherche -->
     <div class="pt-10 pb-15 w-full flex-col">
       <label class="text-white font-futura italic font-semibold" for="search">RECHERCHER : </label>

@@ -13,7 +13,7 @@
                     class="text-black hover:bg-black hover:text-white h-full px-8 transition duration-200 items-center flex"
                     to="/">
                     Accueil
-            </RouterLink>
+                </RouterLink>
                 <RouterLink activeClass="text-white bg-black"
                     class="text-black hover:bg-black hover:text-white h-full px-8 transition duration-200 items-center flex"
                     to="/articles">
@@ -21,8 +21,13 @@
                 </RouterLink>
                 <RouterLink activeClass="text-white bg-black"
                     class="text-black hover:bg-black hover:text-white h-full px-8 transition duration-200 items-center flex"
+                    to="/artistes">
+                    Les Artistes
+                </RouterLink>
+                <RouterLink activeClass="text-white bg-black"
+                    class="text-black hover:bg-black hover:text-white h-full px-8 transition duration-200 items-center flex"
                     to="/a-propos">
-                    A Propos
+                    Qui Sommes-Nous ?
                 </RouterLink>
             </div>
 

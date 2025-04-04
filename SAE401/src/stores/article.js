@@ -10,14 +10,14 @@ export const useArticle = defineStore('article', () => {
             prix: 25.00,
             tinyDesc: "Lorem Ipsum",
             description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-            img1: "src/assets/logo-pin.svg"
+            img1: "/src/assets/logo-pin.svg"
         },
         1: {
             name: "Chaussure2",
             prix: 25.00,
             tinyDesc: "Lorem Ipsum",
             description: "Lorem Ipsum 2",
-            img1: "src/assets/logo-pin.svg",
+            img1: "/src/assets/logo-pin.svg",
         }
     }
 
